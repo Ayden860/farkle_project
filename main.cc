@@ -1,4 +1,4 @@
-//Write your last name and your partner's name here
+//Ayden Yang and Gurshan Singh
 #include <iostream>
 #include "die.h"
 using namespace std;
