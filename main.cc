@@ -5,8 +5,12 @@ using namespace std;
 
 int main() {
 	srand(time(0));
+	//name player 1
 	cout << "Hello World!\n";
-	Die d({.5,.1,.1,.1,.1,.1},6);
+	//chose if player 2 will use a cheat die or regular (let user create the die) (for txt will need to do more work)
+	//you chose if you will use a cheat die or regular
+	//role die 6 times
+	Die d({0.5, 0.1, 0.1, 0.1, 0.1, 0.1}, 6);
 	Die d2;
 	d.roll();
 	d2.roll();
