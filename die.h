@@ -7,7 +7,7 @@ using std::vector;
 //using std::endl;
 
 class Die {
-	const unsigned int SIDES;
+	/*const*/unsigned int SIDES;
 	vector<double> weight;
 	unsigned int last_roll;
 	public:

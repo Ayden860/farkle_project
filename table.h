@@ -11,9 +11,11 @@ class Table{
 		int wager;
 		int currentScore;
 	public:
-		Table();
+		Table();//normal die
+		Table(const vector<double>& cheatWeights);//cheat die
 		void rollDices();
 		vector<int> getDiceValues();
+		int calcScore();
 		//the wager up for winning,
 		void placeWager(int w);
 		int getWager() const;

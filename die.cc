@@ -7,7 +7,7 @@ Die::Die() : SIDES(6), last_roll(0) {
 		weight.push_back(1.0 / SIDES);
 }
 
-Die::Die(vector<double> new_weights, const int new_sides) : SIDES(new_sides), last_roll(0) {
+Die::Die(vector<double> new_weights, /*const*/ int new_sides) : SIDES(new_sides), last_roll(0) {
 	assert(new_sides >= 4);
 	assert(new_weights.size() == SIDES);
 	double sum = 0;
