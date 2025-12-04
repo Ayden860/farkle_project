@@ -1,4 +1,4 @@
-//Ayden Yang and Gurshan Singh
+//Made by Ayden Yang
 #include <iostream>
 #include "die.h"
 #include "player.h"
